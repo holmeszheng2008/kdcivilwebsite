@@ -18238,6 +18238,10 @@ button.subscribe:focus {
     padding: 0;
 }
 
+.postingdateli:hover{
+    text-decoration: underline;
+}
+
 @media screen and (max-width:62em) {
     .navwrapper button.subscribe {
         float: none;
