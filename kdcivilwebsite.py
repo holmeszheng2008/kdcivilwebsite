@@ -13,11 +13,11 @@ def home():
 def bulletin():
     bulletin_id = request.args.get('bulletin_id')
     bulletin_page = request.args.get('bulletin_page')
-    file = 'bulletin/page/bulletin_1.html'
+    file = 'bulletin/bulletin.html'
     if bulletin_id is not None:
         file = "bulletin/content/" + bulletin_id + ".html"
     if bulletin_page is not None:
-        file = "bulletin/page/bulletin_" + bulletin_page + ".html"
+        file = "bulletin/page/" + bulletin_page + ".html"
     return render_template(file)
 
 
