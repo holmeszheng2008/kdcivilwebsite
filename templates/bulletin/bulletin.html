@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% block body %}
+<div id="page" class="page">
+    <!-- Breadcrumb ====== leave here -->
+    <div id="main">
+        <div id="content" class="clearfix container">
+            <div class="section">
+                <div id="main-content"></div>
+                <div class="tabs"></div>
+                <div class="region region-content">
+                    <div id="block-system-main" class="block block-system  block-system-main col-md-12">
+                        <div class="topbanner">
+                            <div class="navwrapper">
+                                <div class="banner-logo">
+                                    <img src="/static/common/logo-bulletin-brief.svg" alt="logo">
+                                </div>
+                                <div class="banner-title">
+                                    <p> 公示栏 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bullcontent">
+                            <div>
+                                <div class="panel-pane pane-views pane-the-bulletin-pages clearfix">
+                                    <div class="pane-content">
+                                        <div class="view-content">
+                                            <ul style="overflow-y: auto; height: 60vh; padding-left: 50px;">
+                                                <li class="postingdateli">
+                                                    <a class="ariavalue " target="_blank" href={{ url_for( 'bulletin', bulletin_page="20211028" ) }}>
+                                                        <p class="MsoNoSpacing ">
+                                                            <span style="white-space:normal ">2021年第3季度</span>
+                                                            <span style="padding-left:50px; font-size: 12.5px;">
+                                                                公示日期：2021年10月28日
+                                                            </span>
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="postingdateli">
+                                                    <a class="ariavalue " target="_blank" href={{ url_for( 'bulletin', bulletin_page="20220126" ) }}>
+                                                        <p class="MsoNoSpacing ">
+                                                            <span style="white-space:normal ">2021年第4季度</span>
+                                                            <span style="padding-left:50px; font-size: 12.5px;">
+                                                                公示日期：2022年01月26日
+                                                            </span>
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="postingdateli">
+                                                    <a class="ariavalue " target="_blank" href={{ url_for( 'bulletin', bulletin_page="20220421" ) }}>
+                                                        <p class="MsoNoSpacing ">
+                                                            <span style="white-space:normal ">2022年第1季度</span>
+                                                            <span style="padding-left:50px; font-size: 12.5px;">
+                                                                公示日期：2022年04月21日
+                                                            </span>
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="postingdateli">
+                                                    <a class="ariavalue " target="_blank" href={{ url_for( 'bulletin', bulletin_page="20220721" ) }}>
+                                                        <p class="MsoNoSpacing ">
+                                                            <span style="white-space:normal ">2022年第2季度</span>
+                                                            <span style="padding-left:50px; font-size: 12.5px;">
+                                                                公示日期：2022年07月21日
+                                                            </span>
+                                                        </p>
+                                                    </a>
+                                                </li>
+                                                <li class="postingdateli">
+                                                    <a class="ariavalue " target="_blank" href={{ url_for( 'bulletin', bulletin_page="20221018" ) }}>
+                                                        <p class="MsoNoSpacing ">
+                                                            <span style="white-space:normal ">2022年第3季度</span>
+                                                            <span style="padding-left:50px; font-size: 12.5px;">
+                                                                公示日期：2022年10月18日
+                                                            </span>
+                                                        </p>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

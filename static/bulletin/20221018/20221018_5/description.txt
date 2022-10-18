@@ -1,0 +1,8 @@
+{
+    "project_name": "省道扎突公路洮南西出口至军马场段改建工程",
+    "build_office": "白城市公路工程建设办公室",
+    "observation_period": "2022年7月1日—2022年9月30日",
+    "observation_office": "吉林省鲲达工程咨询有限公司",
+    "observation_staff": "包权、崔正顺",
+    "filing_date": "2022年9月30日"
+}

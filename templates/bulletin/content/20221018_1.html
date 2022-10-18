@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% block body %}
+<div id="page" class="page">
+  <!-- Breadcrumb ====== leave here -->
+  <div id="main">
+    <div id="content" class="clearfix">
+      <div class="section">
+        <div id="main-content"></div>
+        <div class="tabs"></div>
+        <div class="region region-content">
+          <div id="block-system-main" class="block block-system block-system-main">
+            <div class="container topbanner">
+              <div class="navwrapper">
+                <div class="col-xs-2">
+                  <img src="/static/common/logo-bulletin-brief.svg" alt="logo" />
+                </div>
+                <div class="banner-word">
+                  <p>生产建设项目水土保持监测季度报告表</p>
+                </div>
+              </div>
+            </div>
+            <div class="container bullcontent">
+              <div class="col-md-12">
+                <div class="panel-pane pane-views pane-the-bulletin-pages clearfix">
+                  <div class="pane-content">
+                    <div class="row" style="display: table">
+                      <div class="controls">
+                        <p>
+                          <strong>工程名称:</strong>
+                          三合至莫力达瓦旗公路新化至维新段工程
+                        </p>
+                        <p><strong>建设单位:</strong> 三合至莫力达瓦旗公路新化至维新段工程 </p>
+                        <p>
+                          <strong>监测时段:</strong>
+                          2022年7月1日—2022年9月30日
+                        </p>
+                        <p>
+                          <strong>监测单位:</strong> 吉林省鲲达工程咨询有限公司
+                        </p>
+                        <p>
+                          <strong>监测人员:</strong> 包权、崔正顺
+                          <strong>填表时间:</strong> 2022年9月30日
+                        </p>
+                      </div>
+                    </div>
+                    <div class="report_chart">
+                      <img loading="lazy" src="/static/bulletin/20221018/20221018_1/report_chart.jpg"
+                        alt="bulletin.jpg" />
+                    </div>
+                    <div class="item-list">
+                      <ul class="pager">
+                        <li class="pager-first first">
+                          <a title="Go to first page" href="/bulletin?bulletin_id=20221018_1">« first</a>
+                        </li>
+                        <li class="pager-previous">
+                          <a title="Go to previous page" href="/bulletin?bulletin_id=20221018_1">‹ previous</a>
+                        </li>
+                        <li class="pager-next">
+                          <a title="Go to next page" href="/bulletin?bulletin_id=20221018_2">next ›</a>
+                        </li>
+                        <li class="pager-last last">
+                          <a title="Go to last page" href="/bulletin?bulletin_id=20221018_10">last »</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.section, /#content -->
+</div>
+
+{% endblock %}
