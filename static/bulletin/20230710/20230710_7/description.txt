@@ -1,0 +1,8 @@
+{
+    "project_name": "国道集阿公路（G303）辽源红五星互通立交改建项目",
+    "build_office": "国道集阿公路（G303）辽源红五星互通立交改建项目办公室",
+    "observation_period": "2023年04月01日—2023年06月30日",
+    "observation_office": "吉林省鲲达工程咨询有限公司",
+    "observation_staff": "包权、崔正顺",
+    "filing_date": "2023年07月01日"
+}
