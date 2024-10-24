@@ -1,0 +1,7 @@
+{
+    "project_name": "国道嘉荫至临江公路（G222）靖宇至江源段建设项目（江源段）",
+    "build_office": "白山市交通投资集团有限公司",
+    "observation_period": "2024年04月01日—2024年06月30日",
+    "observation_office": "吉林省鲲达工程咨询有限公司",
+    "observation_staff": "包权、崔正顺",
+    "filing_date": "2024年07月01日"}
